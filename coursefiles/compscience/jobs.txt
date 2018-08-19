@@ -1,0 +1,11 @@
+<p>
+	There are a number of possible jobs that you could get with the HND qualification or that it can lead too. The average salary of these is £25-50k
+</p>
+<ul>
+	<li>Software Developer</li>
+	<li>Network Engineer</li>
+	<li>Ethical Hacker</li>
+	<li>Cyber Software Engineer</li>
+	<li>Web Developer</li>
+	<li>Database Analyst</li>
+</ul>

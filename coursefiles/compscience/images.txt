@@ -1,0 +1,5 @@
+<li><img class="galleryimage" src="images/courses/<?php echo $page;?>/FoxCoTechSupport.png" /></li>
+<li><img class="galleryimage" src="images/courses/placeholder.png" /></li>
+<li><img class="galleryimage" src="images/courses/placeholder.png" /></li>
+<li><img class="galleryimage" src="images/courses/placeholder.png" /></li>
+<li><img class="galleryimage" src='images/courses/compscience/Test.png' /></li>

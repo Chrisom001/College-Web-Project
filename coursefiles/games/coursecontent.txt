@@ -1,0 +1,39 @@
+<p>
+	Provides an introduction to the games industry and includes a mix of practical and theoretical aspects in the areas of: 
+</p>
+<p>HNC Course Material</p>
+	<ul>
+		<li>Game Technology</li>
+		<li>Design Theory</li>
+		<li>Pitch to Treatment</li>
+		<li>Animation and Programming for Games</li>
+<p>
+	Students will be able to implement games by writing code, and applying and integrating different types of game technology and have the chance to learn about computer game environments, how animations are created and integrated into game code. 
+</p>
+	</ul>
+<p>
+	Entry Requirements</br>
+	You will need one of these to be able to join the course.
+	<ul>
+		<li>Four relevant SQA National 5s or equivalent at level 1-3. Plus two relevant Higher Grades (at grade C or above) should include Intermediate 2 Maths or equivalent.</li>
+		<li>Mature applicants with relevant employment experience assessed individually.</li>
+		<li>Completion of ALL units on the Certificate for Interactive Media and development course and an A in the final exam.</li>
+	</ul>
+	<p>
+		All applicants will be invited in to an interview selection process which will assess your suitability in terms of academic qualifications and motivation. References may also be considered.
+	</p>
+</p>
+
+<p>HND Course Material</p>
+	<ul>
+		<li>Character Creation and Storytelling</li>
+		<li>3D Modelling and Animation</li>
+		<li>3D Level Editing</li>
+		<li>Games Object Oriented Programming</li>
+		<li>Games Customisation and Scripting</li>
+		<li>Artificial Intelligence</li>
+	</ul>
+<p>
+	Entry Requirements</br>
+	All 15 Credits on the HNC Computer Games Development Course. Subject to interview selection process, plus suitable reference.
+</p>

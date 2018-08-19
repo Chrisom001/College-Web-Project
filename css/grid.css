@@ -1,0 +1,2360 @@
+/*Admin Page CSS */
+
+/* This starts the low resolution media query */
+@media only screen and (max-width: 480px) 
+{
+	
+	html{
+		height: 100%;
+	}
+	
+	.admin-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	  min-height:100%;
+	  background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #93f29b); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #93f29b); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #93f29b); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #93f29b); /* Standard syntax (must be last) */	
+	}
+	.admin-grid-container > div {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  	  .admin-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+	  }
+
+	.admin-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.admin-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.admin-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+
+	}
+
+	.admin-moderateComments{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.admin-moderateImages{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+}
+/* This ends the low resolution query */
+
+/* This starts the medium resolution query */
+@media only screen and (min-width: 481px) and (max-width: 1023px)
+{
+	html{
+		height: 100%;
+	}
+	.admin-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;	
+	  padding: 10px;
+	min-height:100%;
+	background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #93f29b); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #93f29b); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #93f29b); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #93f29b); /* Standard syntax (must be last) */	
+	}
+	.admin-grid-container > div {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .admin-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+	  }
+
+	.admin-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.admin-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.admin-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+
+	}
+
+	.admin-moderateComments{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.admin-moderateImages{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+}
+
+/* This ends the medium resolution query */
+
+/* This starts the high resolution media query */
+@media only screen and (min-width: 1024px) 
+{
+	html{
+		height: 100%;
+	}
+	
+	.admin-grid-container {
+	  display: grid;
+	  grid-template-columns: auto auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	min-height:100%;
+	background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #93f29b); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #93f29b); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #93f29b); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #93f29b); /* Standard syntax (must be last) */	
+	}
+	.admin-grid-container > div {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .admin-user{
+		  grid-column-start: 1;
+		  grid-column-end: 3;
+		  color: white;
+	  }
+
+	.admin-banner{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.admin-menu{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.admin-footer{
+		grid-column-start: 1;
+		grid-column-end: 3;
+
+	}
+
+	.admin-moderateComments{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.admin-moderateImages{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+}
+/* This ends the high resolution query */
+/*End of Admin CSS*/
+
+/*AdminLogin Pages CSS*/
+/* This starts the low resolution media query */
+@media only screen and (max-width: 480px) 
+{
+	html{
+		height: 100%;
+	}
+	
+	.login-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	  min-height:100%;
+	  background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #93f29b); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #93f29b); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #93f29b); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #93f29b); /* Standard syntax (must be last) */	
+
+	}
+	.login-grid-container > .login-banner .login-menu .login-footer .login-content .login-user {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .login-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+	  }
+
+	.login-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.login-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.login-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+
+	}
+
+	.login-content{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+}
+/* This ends the low resolution query */
+
+/* This starts the medium resolution query */
+@media only screen and (min-width: 481px) and (max-width: 1023px)
+{
+	html{
+		height: 100%;
+	}
+	
+	.login-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	  min-height:100%;
+	  background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #93f29b); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #93f29b); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #93f29b); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #93f29b); /* Standard syntax (must be last) */	
+
+	}
+	.login-grid-container > div {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .login-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.login-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.login-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.login-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+
+	}
+
+	.login-content{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+}
+
+/* This ends the medium resolution query */
+
+/* This starts the high resolution media query */
+@media only screen and (min-width: 1024px) 
+{
+	html{
+		height: 100%;
+	}
+	
+	.login-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	  min-height:100%;
+	  background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #93f29b); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #93f29b); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #93f29b); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #93f29b); /* Standard syntax (must be last) */	
+	}
+	.login-grid-container > .login-banner .login-menu .login-footer .login-content .login-content{
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .login-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.login-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.login-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.login-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+
+	}
+
+	.login-content{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+}
+/* This ends the high resolution query */
+/*End of AdminLogin CSS*/
+
+/*Network Pages CSS*/
+/* This starts the low resolution media query */
+@media only screen and (max-width: 480px) 
+{
+	
+	html{
+		height: 100%;
+	}
+	
+	.network-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	min-height:100%;
+		background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #5dcaf0); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #5dcaf0); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #5dcaf0); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #5dcaf0); /* Standard syntax (must be last) */
+	}
+	.network-grid-container > .network-banner .network-menu .network-footer .network-content {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .network-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.network-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.network-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.network-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.network-content{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+	
+	#hide{
+		display:none;
+	}
+
+}
+/* This ends the low resolution query */
+
+/* This starts the medium resolution query */
+@media only screen and (min-width: 481px) and (max-width: 1023px)
+{
+	html{
+		height: 100%;
+	}
+	
+	.network-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	min-height:100%;
+			background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #5dcaf0); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #5dcaf0); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #5dcaf0); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #5dcaf0); /* Standard syntax (must be last) */
+	}
+	.network-grid-container > .network-banner .network-menu .network-footer .network-content {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .network-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.network-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.network-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.network-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+
+	}
+
+	.network-content{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+}
+
+/* This ends the medium resolution query */
+
+/* This starts the high resolution media query */
+@media only screen and (min-width: 1024px) 
+{
+	html{
+		height: 100%;
+	}
+	
+	.network-grid-container {
+	  display: grid;
+	  grid-template-columns: auto auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	  min-height:100%;
+	  		background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #5dcaf0); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #5dcaf0); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #5dcaf0); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #5dcaf0); /* Standard syntax (must be last) */
+
+	}
+	.network-grid-container > .network-banner .network-menu .network-footer .network-content {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .network-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.network-banner{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.network-menu{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.network-footer{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.network-content{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+}
+/* This ends the high resolution query */
+/*End of Network Page CSS*/
+
+/*Software Pages CSS*/
+/* This starts the low resolution media query */
+@media only screen and (max-width: 480px) 
+{
+	
+	html{
+		height: 100%;
+	}
+	
+	.software-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	min-height:100%;
+		background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #179f7b); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #179f7b); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #179f7b); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #179f7b); /* Standard syntax (must be last) */
+	}
+	.software-grid-container > .software-banner .software-menu .software-footer .software-content {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .software-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.software-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.software-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.software-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.software-content{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+	
+	#hide{
+		display:none;
+	}
+}
+/* This ends the low resolution query */
+
+/* This starts the medium resolution query */
+@media only screen and (min-width: 481px) and (max-width: 1023px)
+{
+	html{
+		height: 100%;
+	}
+	
+	.software-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	min-height:100%;
+		background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #179f7b); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #179f7b); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #179f7b); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #179f7b); /* Standard syntax (must be last) */
+	}
+	.software-grid-container > .software-banner .software-menu .software-footer .software-content {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .software-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.software-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.software-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.software-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+
+	}
+
+	.software-content{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+}
+
+/* This ends the medium resolution query */
+
+/* This starts the high resolution media query */
+@media only screen and (min-width: 1024px) 
+{
+	html{
+		height: 100%;
+	}
+	
+	.software-grid-container {
+	  display: grid;
+	  grid-template-columns: auto auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	  min-height:100%;
+	  	background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #179f7b); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #179f7b); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #179f7b); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #179f7b); /* Standard syntax (must be last) */
+
+	}
+	.software-grid-container > .software-banner .software-menu .software-footer .software-content .software-user{
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .software-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.software-banner{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.software-menu{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.software-footer{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.software-content{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+}
+/* This ends the high resolution query */
+/*End of software Page CSS*/
+
+/*web Pages CSS*/
+/* This starts the low resolution media query */
+@media only screen and (max-width: 480px) 
+{
+	
+	html{
+		height: 100%;
+	}
+	
+	.web-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	min-height:100%;
+		background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #dd1075); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #dd1075); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #dd1075); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #dd1075); /* Standard syntax (must be last) */
+	}
+	.web-grid-container > .web-banner .web-menu .web-footer .web-content {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .web-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.web-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.web-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.web-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.web-content{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+	
+	#hide{
+		display:none;
+	}
+}
+/* This ends the low resolution query */
+
+/* This starts the medium resolution query */
+@media only screen and (min-width: 481px) and (max-width: 1023px)
+{
+	html{
+		height: 100%;
+	}
+	
+	.web-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	min-height:100%;
+		background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #dd1075); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #dd1075); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #dd1075); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #dd1075); /* Standard syntax (must be last) */
+	}
+	.web-grid-container > .web-banner .web-menu .web-footer .web-content {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .web-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.web-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.web-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.web-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+
+	}
+
+	.web-content{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+}
+
+/* This ends the medium resolution query */
+
+/* This starts the high resolution media query */
+@media only screen and (min-width: 1024px) 
+{
+	html{
+		height: 100%;
+	}
+	
+	.web-grid-container {
+	  display: grid;
+	  grid-template-columns: auto auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	  min-height:100%;
+	  	background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #dd1075); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #dd1075); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #dd1075); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #dd1075); /* Standard syntax (must be last) */
+
+	}
+	.web-grid-container > .web-banner .web-menu .web-footer .web-content {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .web-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.web-banner{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.web-menu{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.web-footer{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.web-content{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+}
+/* This ends the high resolution query */
+/*End of web Page CSS*/
+
+/*compscience Pages CSS*/
+/* This starts the low resolution media query */
+@media only screen and (max-width: 480px) 
+{
+	
+	html{
+		height: 100%;
+	}
+	
+	.compscience-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	min-height:100%;
+		background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #ef5124); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #ef5124); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #ef5124); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #ef5124); /* Standard syntax (must be last) */
+	}
+	.compscience-grid-container > .compscience-banner .compscience-menu .compscience-footer .compscience-content {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .compscience-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.compscience-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.compscience-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.compscience-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.compscience-content{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+	
+	#hide{
+		display:none;
+	}
+}
+/* This ends the low resolution query */
+
+/* This starts the medium resolution query */
+@media only screen and (min-width: 481px) and (max-width: 1023px)
+{
+	html{
+		height: 100%;
+	}
+	
+	.compscience-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	min-height:100%;
+		background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #ef5124); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #ef5124); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #ef5124); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #ef5124); /* Standard syntax (must be last) */
+	}
+	.compscience-grid-container > .compscience-banner .compscience-menu .compscience-footer .compscience-content {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .compscience-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.compscience-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.compscience-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.compscience-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+
+	}
+
+	.compscience-content{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+}
+
+/* This ends the medium resolution query */
+
+/* This starts the high resolution media query */
+@media only screen and (min-width: 1024px) 
+{
+	html{
+		height: 100%;
+	}
+	
+	.compscience-grid-container {
+	  display: grid;
+	  grid-template-columns: auto auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	  min-height:100%;
+		background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #ef5124); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #ef5124); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #ef5124); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #ef5124); /* Standard syntax (must be last) */
+
+	}
+	.compscience-grid-container > .compscience-banner .compscience-menu .compscience-footer .compscience-content {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .compscience-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.compscience-banner{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.compscience-menu{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.compscience-footer{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.compscience-content{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+}
+/* This ends the high resolution query */
+/*End of compscience Page CSS*/
+
+/*games Pages CSS*/
+/* This starts the low resolution media query */
+@media only screen and (max-width: 480px) 
+{
+	
+	html{
+		height: 100%;
+	}
+	
+	.games-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	min-height:100%;
+		background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #672c88); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #672c88); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #672c88); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #672c88); /* Standard syntax (must be last) */
+	}
+	.games-grid-container > .games-banner .games-menu .games-footer .games-content {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .games-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.games-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.games-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.games-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.games-content{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+	
+	#hide{
+		display:none;
+	}
+}
+/* This ends the low resolution query */
+
+/* This starts the medium resolution query */
+@media only screen and (min-width: 481px) and (max-width: 1023px)
+{
+	html{
+		height: 100%;
+	}
+	
+	.games-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	min-height:100%;
+		background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #672c88); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #672c88); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #672c88); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #672c88); /* Standard syntax (must be last) */
+	}
+	.games-grid-container > .games-banner .games-menu .games-footer .games-content {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .games-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.games-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.games-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.games-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+
+	}
+
+	.games-content{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+}
+
+/* This ends the medium resolution query */
+
+/* This starts the high resolution media query */
+@media only screen and (min-width: 1024px) 
+{
+	html{
+		height: 100%;
+	}
+	
+	.games-grid-container {
+	  display: grid;
+	  grid-template-columns: auto auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	  min-height:100%;
+		background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #672c88); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #672c88); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #672c88); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #672c88); /* Standard syntax (must be last) */
+
+	}
+	.games-grid-container > .games-banner .games-menu .games-footer .games-content {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .games-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.games-banner{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.games-menu{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.games-footer{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.games-content{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+}
+/* This ends the high resolution query */
+/*End of games Page CSS*/
+
+/*contact Pages CSS*/
+/* This starts the low resolution media query */
+@media only screen and (max-width: 480px) 
+{
+	
+	html{
+		height: 100%;
+	}
+	
+	.contact-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	min-height:100%;
+		background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #f4e842); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #f4e842); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #f4e842); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #f4e842); /* Standard syntax (must be last) */
+	}
+	.contact-grid-container > .contact-banner .contact-menu .contact-footer .contact-content {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .contact-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.contact-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.contact-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.contact-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.contact-content{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+}
+/* This ends the low resolution query */
+
+/* This starts the medium resolution query */
+@media only screen and (min-width: 481px) and (max-width: 1023px)
+{
+	html{
+		height: 100%;
+	}
+	
+	.contact-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	min-height:100%;
+		background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #f4e842); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #f4e842); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #f4e842); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #f4e842); /* Standard syntax (must be last) */
+	}
+	.contact-grid-container > .contact-banner .contact-menu .contact-footer .contact-content {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .contact-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.contact-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.contact-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.contact-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+
+	}
+
+	.contact-content{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+}
+
+/* This ends the medium resolution query */
+
+/* This starts the high resolution media query */
+@media only screen and (min-width: 1024px) 
+{
+	html{
+		height: 100%;
+	}
+	
+	.contact-grid-container {
+	  display: grid;
+	  grid-template-columns: auto auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	  min-height:100%;
+		background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #f4e842); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #f4e842); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #f4e842); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #f4e842); /* Standard syntax (must be last) */
+
+	}
+	.contact-grid-container > .contact-banner .contact-menu .contact-footer .contact-content {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+
+	  
+	  .contact-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+	.contact-banner{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.contact-menu{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.contact-footer{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.contact-text{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+	
+	.contact-email{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.contact-details{
+		grid-column-start: 2;
+		grid-column-end: 3;
+	}
+
+}
+/* This ends the high resolution query */
+/*End of contact Page CSS*/
+
+/*home Pages CSS*/
+/* This starts the low resolution media query */
+@media only screen and (max-width: 480px) 
+{
+	
+	html{
+		height: 100%;
+	}
+	
+	.home-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	min-height:100%;
+		background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #0f6746); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #0f6746); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #0f6746); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #0f6746); /* Standard syntax (must be last) */
+	}
+	.home-grid-container > .home-banner .home-text .home-footer .home-news .home-buttons  {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .home-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+.home-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.home-text{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		text-align: center;
+		color: white;
+	}
+	.home-buttons{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		align-self: center;
+	}
+	
+	.home-news{
+		display: none;
+	}
+	.home-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		color: white;
+		text-align: center;
+	}
+
+	.home-content{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+}
+/* This ends the low resolution query */
+
+/* This starts the medium resolution query */
+@media only screen and (min-width: 481px) and (max-width: 1023px)
+{
+	html{
+		height: 100%;
+	}
+	
+	.home-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	min-height:100%;
+				background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #0f6746); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #0f6746); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #0f6746); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #0f6746); /* Standard syntax (must be last) */
+	}
+	.home-grid-container > .home-banner .home-text .home-footer .home-news .home-buttons  {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .home-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.home-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	.home-text{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		text-align: center;
+		color: white;
+	}
+	.home-buttons{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		align-self: center;
+	}
+	
+	.home-news{
+		display: none;
+	}
+	.home-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		color: white;
+		text-align: center;
+	}
+
+}
+
+/* This ends the medium resolution query */
+
+/* This starts the high resolution media query */
+@media only screen and (min-width: 1024px) 
+{
+	html{
+		height: 100%;
+	}
+	
+	.home-grid-container {
+	  display: grid;
+	  grid-template-columns: auto auto auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	  min-height:100%;	  
+	  
+	background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #0f6746); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #0f6746); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #0f6746); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #0f6746); /* Standard syntax (must be last) */
+
+	}
+	.home-grid-container > .home-banner .home-text .home-footer .home-news .home-buttons {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .home-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.home-banner{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+	
+
+	.home-text{
+		grid-column-start: 1;
+		grid-column-end: 3;
+		text-align: center;
+		color: white;
+	}
+	.home-buttons{
+		grid-column-start: 2;
+		grid-column-end: 2;
+		align-self: center;
+	}
+	
+	.home-news{
+		grid-column-start: 3;
+		grid-column-end: 3;
+		border-style: solid;
+		color: white;
+	}
+	.home-footer{
+		grid-column-start: 1;
+		grid-column-end: 3;
+		color: white;
+		text-align: center;
+	}
+}
+/* This ends the high resolution query */
+/*End of home Page CSS*/
+
+
+/*UpdateCourses Pages CSS*/
+/* This starts the low resolution media query */
+@media only screen and (max-width: 480px) 
+{
+	
+	html{
+		height: 100%;
+	}
+	
+	.updateCourse-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	min-height:100%;
+		background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #0f6746); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #0f6746); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #0f6746); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #0f6746); /* Standard syntax (must be last) */
+	}
+	.updateCourse-grid-container > .updateCourse-banner .updateCourse-text .updateCourse-footer .updateCourse-news .updateCourse-buttons  {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .updateCourse-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.updateCourse-banner{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+	
+	.updateCourse-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.updateCourse-content{
+		grid-column-start: 1;
+		grid-column-end: 3;
+		text-align: center;
+		color: white;
+	}
+	.updateCourse-update{
+		grid-column-start: 1;
+		grid-column-end: 3;
+		align-self: center;
+	}
+	
+	.updateCourse-footer{
+		grid-column-start: 1;
+		grid-column-end: 3;
+		color: white;
+		text-align: center;
+	}
+		.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+	
+}
+/* This ends the low resolution query */
+
+/* This starts the medium resolution query */
+@media only screen and (min-width: 481px) and (max-width: 1023px)
+{
+	html{
+		height: 100%;
+	}
+	
+	.updateCourse-grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	min-height:100%;
+				background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #0f6746); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #0f6746); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #0f6746); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #0f6746); /* Standard syntax (must be last) */
+	}
+	.updateCourse-grid-container > .updateCourse-banner .updateCourse-text .updateCourse-footer .updateCourse-news .updateCourse-buttons  {
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .updateCourse-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.updateCourse-banner{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.updateCourse-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.updateCourse-content{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		text-align: center;
+		color: white;
+	}
+	.updateCourse-update{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		align-self: center;
+	}
+	
+	.updateCourse-footer{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		color: white;
+		text-align: center;
+	}
+	
+	.navigation a:not(:first-child) {
+		display: none;
+	}
+	
+	.navigation a.icon {
+    float: right;
+    display: block;
+	}
+	
+	.navigation.responsive {
+		position: relative;
+	}
+	
+	.navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	}
+	
+	.navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	}
+
+}
+
+/* This ends the medium resolution query */
+
+/* This starts the high resolution media query */
+@media only screen and (min-width: 1024px) 
+{
+	html{
+		height: 100%;
+	}
+	
+	.updateCourse-grid-container {
+	  display: grid;
+	  grid-template-columns: auto auto auto;
+	  grid-gap: 10px;
+	  padding: 10px;
+	  min-height:100%;	  
+	  
+	background: #2d3e50; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#2d3e50, #0f6746); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#2d3e50, #0f6746); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#2d3e50, #0f6746); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#2d3e50, #0f6746); /* Standard syntax (must be last) */
+
+	}
+	.updateCourse-grid-container > .updateCourse-banner .updateCourse-text .updateCourse-footer .updateCourse-news .updateCourse-buttons .updateCourse-menu{
+	  background-color: rgba(255, 255, 255, 0.0);
+	  text-align: center;
+	  padding: 20px 0;
+	  border-style: solid;
+	  border-color: white;
+	  border-width: 1px;
+	  }
+	  
+	  .updateCourse-user{
+		  grid-column-start: 1;
+		  grid-column-end: 2;
+		  color: white;
+		  font-size: 12pt;
+		  text-align: center;
+	  }
+
+	.updateCourse-banner{
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+	
+	.updateCourse-menu{
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+	
+	.updateCourse-content{
+		grid-column-start: 1;
+		grid-column-end: 3;
+		text-align: center;
+		color: white;
+	}
+	.updateCourse-update{
+		grid-column-start: 1;
+		grid-column-end: 3;
+		align-self: center;
+	}
+	
+	.updateCourse-footer{
+		grid-column-start: 1;
+		grid-column-end: 3;
+		color: white;
+		text-align: center;
+	}
+}
+/* This ends the high resolution query */
+/*End of UpdateCourses Page CSS*/

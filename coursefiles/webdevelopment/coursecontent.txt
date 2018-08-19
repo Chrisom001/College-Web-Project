@@ -1,0 +1,13 @@
+<p>
+	This course will introduce students to the skills required for a career in web design/development. Students will design and build websites for computers and mobile devices using a variety of modern tools and techniques including HTML5, CSS, SEO and HCI. Students will also have the opportunity to undertake live client web-related projects.  
+</p>
+
+<p>
+Entry Requirements</br>
+You will need one of these to be able to join the course.
+	<ul>
+		<li>Two Highers together with four relevant Standard Grades (Credit level) or four passes at National 5 (including computing, graphic design or information systems), plus suitable reference.</li>
+		<li>Mature applicants with relevant employment experience assessed individually.</li>
+		<li>Students who have completed all units for Certificate for Interactive Media National or Certificate in Computing at SCQF level 5 or level 6 or an equivalent qualification, plus suitable reference.</li>
+	</ul>
+</p>

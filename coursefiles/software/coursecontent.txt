@@ -1,0 +1,32 @@
+				<p>
+	This course introduces a large array of software development skills which are required to compete in an expanding software workforce. Subjects covered include: 
+</p>
+<ul>
+	<li>Software Engineering Concepts</li>
+	<li>Mobile App creation</li>
+	<li>Event Driven and Object Oriented Programming (Java, C#), Data Algorithms</li>
+	<li>SQL, RDBMS, Database Design (Oracle)</li>
+	<li>Web authoring (mobile, HTML, javascript, jQuery, DOM, PHP, jQuery)</li>
+	<li>Team work, Fundamental Theory, Technical knowledge</li>
+	<li>Vendor qualifications and portfolio opportunities</li>
+</ul>
+<p>
+	Subjects have been chosen to be in-line with current employment trends. Students will also have the opportunity to sit vendor certification exams in Oracle (Database Server Technologies) and Microsoft (Microsoft Technical Associate exam) which are highly prized by many employers within the software development industry. 
+</p>	
+<p>
+	Also, with the explosion of mobile applications you will be introduced to the development of mobile apps using Java on the Android platform using Virtual Machines. There is also the opportunity to work within the Incubator space to encourage any budding entrepreneurs. 
+</p>	
+<p>	
+	* Please note that progression into Year 2 of this course will be dependent on successfully achieving all credits at Year 1 to a specific standard set out by your Course Leader. 
+</p>
+				
+<p>
+	Entry Requirements</br>
+	You will need one of these to be able to join the course.
+	<ul>
+		<li>4 relevant SQA National 5's, level A,B plus two relevant Highers’ (grade C or above) OR Computing related Certificate course with ALL credits.</li>
+		<li>Mature applicants with relevant employment experience assessed individually.</li>
+		<li>Year 2 entry possible from HNC Computing.</li>
+		<li>Subject to interview selection process plus suitable reference.</li>
+	</ul>
+</p>																								

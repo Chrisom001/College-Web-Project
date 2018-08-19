@@ -1,0 +1,13 @@
+<p>
+	There are a number of possible jobs that you could get with the HND qualification or that it can lead too. The average salary of these is £25-50k
+</p>
+<ul>
+	<li>Games Designer</li>
+	<li>3D Animator</li>
+	<li>Level Designer</li>
+	<li>Character Designer</li>
+	<li>Games Programmer</li>
+	<li>Graphic Designer</li>
+	<li>Software Engineer</li>
+	<li>Games Tester</li>
+</ul>

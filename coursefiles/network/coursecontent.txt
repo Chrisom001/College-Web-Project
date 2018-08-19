@@ -1,0 +1,19 @@
+				<p>
+	The course provides a comprehensive range of knowledge and practical skills in designing, building and maintaining computer network infrastructures. 
+</p>
+<p>
+	Year 1 – Gain technical skills to build and configure robust LANs </br>
+	Year 2 - Configure and maintain the infrastructure for networks </br>
+	There is the opportunity to gain vendor qualifications: Cisco and Microsoft
+</p>
+				
+<p>
+	Entry Requirements</br>
+	You will need one of these to be able to join the course.
+	<ul>
+		<li>2 Highers or equivalent (at grade C or above)</li>
+		<li>Minimum of 4 National 5's or equivalent including English and preferably Computing and Maths</li>
+		<li>Successful completion of a relevant access course such as Certificate in Computing</li>
+		<li>Relevant experience or alternative qualifications will also be considered</li>
+	</ul>
+</p>				

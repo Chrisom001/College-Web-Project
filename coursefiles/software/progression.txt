@@ -1,0 +1,18 @@
+				
+				<p>
+	With the HND you can get into the following Abertay University Courses
+	<ul>
+		<li>BSc (Hons) Computing  - Year 3 (HND with graded unit 2: A)</li>
+		<li>BSc (Hons) Computer Game Applications Development - Year 1 (HND with graded unit 2: A (if no Scottish Higher in Maths))</li>
+		<li>BSc (Hons) Computer Game Applications Development - Year 2 (HND with graded unit 2: A plus Higher Maths: B)</li>
+		<li>BSc (Hons) Computer Games Technology - Year 1 (HND with graded unit 2: A plus Higher Maths: B)</li>
+		<li>BSc (Hons) Ethical Hacking - Year 2 (HND with graded unit 2: A)</li>
+		<li>BSc (Hons) Game Design & Production Management - Year 1 (HND with graded unit 2: A)</li>
+	</ul>
+</p>				
+								
+								
+								
+								
+								
+				

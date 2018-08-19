@@ -1,0 +1,5 @@
+<li><img data-u="image" src="images/courses/placeholder.png" /></li>
+<li><img data-u="image" src="images/courses/placeholder.png" /></li>
+<li><img data-u="image" src="images/courses/placeholder.png" /></li>
+<li><img data-u="image" src="images/courses/placeholder.png" /></li>
+<li><img data-u='image' src='images/courses/games/darth4.jpg' /></li><li><img src='images/courses/games/power symbol.jpg' /></li>

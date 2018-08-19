@@ -1,0 +1,25 @@
+<p>
+	A broad-based computing course allowing for progression to university in different disciplines. Course content includes: 
+</p>
+<ul>
+	<li>Networking: planning, configuring, implementing, security, CISCO 1 and 2</li>
+	<li>Software Development: Introductory and OO Java Programming, SQL, RDBMS, user centred design.</li>
+	<li>Web Design: mobile, html, css, javascript, php, jQuery, DOM, web server hosting.</li>
+	<li>Technical Support: hardware, forensics, operating systems, ethical hacking.</li>
+</ul>
+<p>
+	Vendor-based exams and for more study in specific topics on offer. There are opportunities to participate in enterprise-related projects providing work experience. D&A enterprise centres provide facilities for students to explore opportunities to integrate their expertise with cross-disciplinary provision in areas including creative and digital industries, life sciences, energy and resource efficiency
+</p>	
+<p>
+	Students will have access to incubation facilities to progress their business ideas and will receive support throughout the start-up process. Note: progression to Year 2 is dependent on achieving all Year 1 credits to a standard set by the course leader. 
+</p>	
+<p>
+	Entry Requirements</br>
+	You will need one of these to be able to join the course.
+	<ul>
+		<li>Four relevant National 5's or equivalent, level A/B plus two relevant Highers (grade C or above) or computing-related certificate course with all credits.</li>
+		<li>Mature applicants with relevant employment experience assessed individually.</li>
+		<li>Year 2 entry possible from HNC Computing.</li>
+		<li>Subject to interview selection process plus suitable reference.</li>
+	</ul>
+</p>

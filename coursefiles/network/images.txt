@@ -1,0 +1,5 @@
+<li><img src="images/courses/placeholder.png" /></li>
+<li><img src="images/courses/placeholder.png" /></li>
+<li><img src="images/courses/placeholder.png" /></li>
+<li><img src="images/courses/placeholder.png" /></li>
+<li><img src='images/courses/network/Test.png' /></li><li><img src='images/courses/network/IntellectualStuff.jpg' /></li><li><img src='images/courses/network/ImportantStuff.jpg' /></li><li><img src='images/courses/network/facebelly.jpg' /></li><li><img src='images/courses/network/ProgrammingStuff.jpg' /></li><li><img src='images/courses/network/Test1.png' /></li>

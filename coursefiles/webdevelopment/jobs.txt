@@ -1,0 +1,10 @@
+<p>
+	There are a number of possible jobs that you could get with the HND qualification or that it can lead too. The average salary of these is £25-50k
+</p>
+<ul>
+	<li>Web Developer</li>
+	<li>Digital Designer</li>
+	<li>Digital Marketing</li>
+	<li>Web Content Editor</li>
+	<li>SEO & Web Analytics</li>
+</ul>

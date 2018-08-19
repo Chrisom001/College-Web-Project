@@ -133,22 +133,8 @@ body{
 /* ---Photo Gallery CSS Begin--- */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
 
-html {
-  border-top: 5px solid #fff;
-  background: #58DDAF;
-  color: #2a2a2a;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans';
-}
-
-h1 {
-  color: #fff;
-  text-align: center;
-  font-weight: 300;
+.galleryimage{
+	max-width: 100%;
 }
 
 #slider {
@@ -156,6 +142,8 @@ h1 {
   overflow: hidden;
   margin: 20px auto 0 auto;
   border-radius: 4px;
+  max-width: 100%;
+  height: auto;
 }
 
 #slider ul {
@@ -172,8 +160,8 @@ h1 {
   float: left;
   margin: 0;
   padding: 0;
-  width: 500px;
-  height: 300px;
+  max-width: 100%;
+  height: auto;
   background: #ccc;
   text-align: center;
   line-height: 300px;
